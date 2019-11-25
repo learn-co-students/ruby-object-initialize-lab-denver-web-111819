@@ -1,8 +1,10 @@
 class Person
-  # attr_accessor :name
-  def initialize(name)
+  attr_accessor :name
+  def initialize(name = "no_name")
     @name = name
   end
 end
 
-# Peter = Person.new(John)
+p Peter = Person.new
+# p Peter.name = "Peter"
+p Peter.name
